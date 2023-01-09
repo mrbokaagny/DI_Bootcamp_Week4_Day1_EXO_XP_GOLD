@@ -2,7 +2,7 @@
   <div class="title"> Liste des planètes du système solaire </div>
   <div class="list">
     <ul>
-      <li *ngFor="let planet of planetes">{{ planet }}</li>
+      <li *ngFor="let planet of planetes">{{ planet | uppercase }}</li>
     </ul>
   </div>
 </div>
